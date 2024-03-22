@@ -1,4 +1,4 @@
-# mp4 - Lambda
+# MP4 - Lambda
 
 ## 部署
 ### 前置条件
@@ -49,3 +49,7 @@ payload = response['Payload'].read().decode("utf-8")
 
 lamdba_res_payload = json.loads(payload)
 ```
+
+Java Demo: 
+
+https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2/example_code/lambda
